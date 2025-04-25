@@ -1,0 +1,7 @@
+[
+  { "src": "images/cat.jpg", "category": "cat" },
+  { "src": "images/cat2.jpg", "category": "cat" },
+  { "src": "images/cat3.jpg", "category": "cat" },
+  { "src": "images/dog.jpg", "category": "dog" },
+  { "src": "images/dog1.jpg", "category": "dog" }
+]
