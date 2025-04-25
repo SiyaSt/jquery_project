@@ -37,6 +37,9 @@ $(function () {
         $('#preview').fadeOut(200, function () {
             $(this).attr('src', img.src).fadeIn(300);
         });
+
+        const description = img.description || `Category: ${img.category}` || 'No description';
+        $('#image-description').hide().text(description).fadeIn(400);
     }
     
     function renderGallery(imgArray) {
