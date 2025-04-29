@@ -77,10 +77,12 @@ button:hover {
     max-height: 400px;
     width: 320px;
     height: 400px;
+    object-fit: cover;
     border-radius: 12px;
     border: 5px solid #8e7676;
     box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
+
 
 .image-container{
     display: flex;
